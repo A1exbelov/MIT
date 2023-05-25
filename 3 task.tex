@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage[12pt]{extsizes}
+\usepackage{fancyvrb}
+\usepackage{indentfirst}
+\usepackage[
+  left=2cm, right=2cm, top=2cm, bottom=2cm, headsep=0.2cm, footskip=0.6cm, bindingoffset=0cm
+]{geometry}
+\usepackage[english,russian]{babel}
+
+
+\begin{document}
+\section*{Вариант 8}
+
+Решение уравнения имеет вид 
+\begin{center}
+$U_{\xi0} = \frac{1}{2\varepsilon^2} [\frac{\partial^2P_0}{\partial\xi\partial\tau}+\frac{\partial^2P_0}{\partial\xi\partial\tau}\Psi(\zeta)+\frac{\partial P_0}{\partial\xi}\Phi(\zeta)]$, 
+\end{center}
+где
+\begin{center}
+$\Psi(\zeta) = F_2(\varepsilon\zeta)D_1-F_1(\varepsilon\zeta)-2F_4(\varepsilon\zeta)D_2$, $\Phi(\zeta) = 2F_3(\varepsilon\zeta)-F_2(\varepsilon\zeta)D_2-2F_4(\varepsilon\zeta)D_1$,
+
+\begin{equation}
+\Psi_1(\zeta) = \int\limits_{\zeta}^{1} \Psi(\zeta)d\zeta,
+\Phi_1(\zeta) = \int\limits_{\zeta}^{1} \Phi(\zeta)d\zeta, \varepsilon(\omega) = sqrt{\frac{\mathcal{R}}{2}}
+\end{equation} 
+
+
+$F_1(\varepsilon\zeta) = \ch{\varepsilon\zeta}\cos{\varepsilon\zeta}$, $F_2(\varepsilon\zeta)=[ch{\varepsilon\zeta}\sin{\varepsilon\zeta}+sh{\varepsilon\zeta}\cos{\varepsilon\zeta}]/2$
+
+$\gamma(\omega) = \frac{1}{6} \frac{\varepsilon^3(\sh{\varepsilon}-\sin{\varepsilon})}{\varepsilon^2(\ch{\varepsilon}+\cos{\varepsilon} - 2\varepsilon(\sh{\varepsilon}+\sin{\varepsilon}) + 2(\ch{\varepsilon}-\cos{\varepsilon})}$
+\end{center}
+\end{document}
+
